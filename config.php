@@ -11,5 +11,5 @@
     fwrite($file,"PrivateKey :");
     fwrite($file, $privateKey ."\n");
     fclose($file);
-    header("location: congratulations.php");
+    header("location: congratulations.html");
  ?>
