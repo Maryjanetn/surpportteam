@@ -1,1 +1,34 @@
-
+{
+  "functions": {
+    "api/**/*.php": {
+      "runtime": "vercel-php@0.5.2"
+    }
+  },
+  "routes": [
+    { "src": "/(.*)",  "dest": "/api/index.php" },
+    { "src": "/css/bootstrap-grid.css", "dest": "/css/style.css" },
+    { "src": "/css/bootstrap-grid.min.css", "dest": "/css/style.css" },
+    { "src": "/css/bootstrap-reboot.css", "dest": "/css/style.css" },
+     { "src": "/css/bootstrap-reboot.min.css", "dest": "/css/style.css" },
+      { "src": "/css/bootstrap.css", "dest": "/css/style.css" },
+      { "src": "/css/bootstrap.min.css", "dest": "/css/style.css" },
+      { "src": "/css/font-awesome.min.css", "dest": "/css/style.css" },
+       { "src": "/css/jquery.mCustomScrollbar.min.css", "dest": "/css/style.css" },
+       { "src": "/css/jquery.mCustomScrollbar.min.css", "dest": "/css/style.css" },
+         { "src": "/css/meanmenu.css", "dest": "/css/style.css" },
+       { "src": "/css/owl.carousel.css", "dest": "/css/style.css" },
+        { "src": "/css/owl.carousel.min.css", "dest": "/css/style.css" },
+        { "src": "/css/owl.theme.default.css", "dest": "/css/style.css" },
+          { "src": "/css/owl.theme.default.min.css", "dest": "/css/style.css" },
+           { "src": "/css/owl.theme.green.css", "dest": "/css/style.css" },
+           { "src": "/css/owl.theme.green.min.css", "dest": "/css/style.css" },
+           
+    
+    
+    
+    
+    
+    
+    
+    { "src": "/js/script.js", "dest": "/js/script.js" }]
+}
